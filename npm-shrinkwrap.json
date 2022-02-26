@@ -1414,7 +1414,6 @@
       "dependencies": {
         "anymatch": "~3.1.1",
         "braces": "~3.0.2",
-        "fsevents": "~2.1.2",
         "glob-parent": "~5.1.0",
         "is-binary-path": "~2.1.0",
         "is-glob": "~4.0.1",
@@ -2173,7 +2172,6 @@
       "dependencies": {
         "anymatch": "~3.1.1",
         "braces": "~3.0.2",
-        "fsevents": "~2.1.2",
         "glob-parent": "~5.1.0",
         "is-binary-path": "~2.1.0",
         "is-glob": "~4.0.1",
@@ -2442,18 +2440,6 @@
       "resolved": "https://registry.npmjs.org/cli-width/-/cli-width-2.2.1.tgz",
       "integrity": "sha512-GRMWDxpOB6Dgk2E5Uo+3eEBvtOOlimMmpbFiKuLFnQzYDavtLFY3K5ona41jgN/WdRZtG7utuVSVTL4HbZHGkw==",
       "dev": true
-    },
-    "node_modules/clipboard": {
-      "version": "2.0.6",
-      "resolved": "https://registry.npmjs.org/clipboard/-/clipboard-2.0.6.tgz",
-      "integrity": "sha512-g5zbiixBRk/wyKakSwCKd7vQXDjFnAMGHoEyBogG/bw9kTD9GvdAvaoRR1ALcEzt3pVKxZR0pViekPMIS0QyGg==",
-      "dev": true,
-      "optional": true,
-      "dependencies": {
-        "good-listener": "^1.2.2",
-        "select": "^1.1.2",
-        "tiny-emitter": "^2.0.0"
-      }
     },
     "node_modules/coa": {
       "version": "2.0.2",
@@ -3453,7 +3439,6 @@
       "integrity": "sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==",
       "dev": true,
       "dependencies": {
-        "@commitlint/load": ">6.1.1",
         "chalk": "^2.4.1",
         "commitizen": "^4.0.3",
         "conventional-commit-types": "^3.0.0",
@@ -3695,13 +3680,6 @@
       "engines": {
         "node": ">=0.4.0"
       }
-    },
-    "node_modules/delegate": {
-      "version": "3.2.0",
-      "resolved": "https://registry.npmjs.org/delegate/-/delegate-3.2.0.tgz",
-      "integrity": "sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==",
-      "dev": true,
-      "optional": true
     },
     "node_modules/delegates": {
       "version": "1.0.0",
@@ -4187,8 +4165,7 @@
         "esprima": "^4.0.1",
         "estraverse": "^4.2.0",
         "esutils": "^2.0.2",
-        "optionator": "^0.8.1",
-        "source-map": "~0.6.1"
+        "optionator": "^0.8.1"
       },
       "bin": {
         "escodegen": "bin/escodegen.js",
@@ -5012,16 +4989,6 @@
       "dev": true,
       "engines": {
         "node": ">=0.10.0"
-      }
-    },
-    "node_modules/good-listener": {
-      "version": "1.2.2",
-      "resolved": "https://registry.npmjs.org/good-listener/-/good-listener-1.2.2.tgz",
-      "integrity": "sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=",
-      "dev": true,
-      "optional": true,
-      "dependencies": {
-        "delegate": "^3.1.2"
       }
     },
     "node_modules/graceful-fs": {
@@ -6901,7 +6868,6 @@
       "dependencies": {
         "anymatch": "~3.1.1",
         "braces": "~3.0.2",
-        "fsevents": "~2.1.2",
         "glob-parent": "~5.1.0",
         "is-binary-path": "~2.1.0",
         "is-glob": "~4.0.1",
@@ -8812,15 +8778,12 @@
       }
     },
     "node_modules/prismjs": {
-      "version": "1.21.0",
-      "resolved": "https://registry.npmjs.org/prismjs/-/prismjs-1.21.0.tgz",
-      "integrity": "sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==",
+      "version": "1.27.0",
+      "resolved": "https://registry.npmjs.org/prismjs/-/prismjs-1.27.0.tgz",
+      "integrity": "sha512-t13BGPUlFDR7wRB5kQDG4jjl7XeuH6jbJGt11JHPL96qwsEHNX2+68tFXqc1/k+/jALsbSWJKUOT/hcYAZ5LkA==",
       "dev": true,
-      "dependencies": {
-        "clipboard": "^2.0.0"
-      },
-      "optionalDependencies": {
-        "clipboard": "^2.0.0"
+      "engines": {
+        "node": ">=6"
       }
     },
     "node_modules/process-nextick-args": {
@@ -8975,7 +8938,6 @@
       "dev": true,
       "dependencies": {
         "source-map": "~0.5.1",
-        "uglify-to-browserify": "~1.0.0",
         "yargs": "~3.10.0"
       },
       "bin": {
@@ -9559,9 +9521,6 @@
       "version": "2.23.0",
       "resolved": "https://registry.npmjs.org/rollup/-/rollup-2.23.0.tgz",
       "integrity": "sha512-vLNmZFUGVwrnqNAJ/BvuLk1MtWzu4IuoqsH9UWK5AIdO3rt8/CSiJNvPvCIvfzrbNsqKbNzPAG1V2O4eTe2XZg==",
-      "dependencies": {
-        "fsevents": "~2.1.2"
-      },
       "bin": {
         "rollup": "dist/bin/rollup"
       },
@@ -9689,13 +9648,6 @@
       "engines": {
         "node": ">=0.10.0"
       }
-    },
-    "node_modules/select": {
-      "version": "1.1.2",
-      "resolved": "https://registry.npmjs.org/select/-/select-1.1.2.tgz",
-      "integrity": "sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=",
-      "dev": true,
-      "optional": true
     },
     "node_modules/semver": {
       "version": "7.3.2",
@@ -11064,13 +11016,6 @@
       "version": "0.3.0",
       "resolved": "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz",
       "integrity": "sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q="
-    },
-    "node_modules/tiny-emitter": {
-      "version": "2.1.0",
-      "resolved": "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz",
-      "integrity": "sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==",
-      "dev": true,
-      "optional": true
     },
     "node_modules/tmp": {
       "version": "0.0.33",
@@ -13854,18 +13799,6 @@
       "integrity": "sha512-GRMWDxpOB6Dgk2E5Uo+3eEBvtOOlimMmpbFiKuLFnQzYDavtLFY3K5ona41jgN/WdRZtG7utuVSVTL4HbZHGkw==",
       "dev": true
     },
-    "clipboard": {
-      "version": "2.0.6",
-      "resolved": "https://registry.npmjs.org/clipboard/-/clipboard-2.0.6.tgz",
-      "integrity": "sha512-g5zbiixBRk/wyKakSwCKd7vQXDjFnAMGHoEyBogG/bw9kTD9GvdAvaoRR1ALcEzt3pVKxZR0pViekPMIS0QyGg==",
-      "dev": true,
-      "optional": true,
-      "requires": {
-        "good-listener": "^1.2.2",
-        "select": "^1.1.2",
-        "tiny-emitter": "^2.0.0"
-      }
-    },
     "coa": {
       "version": "2.0.2",
       "resolved": "https://registry.npmjs.org/coa/-/coa-2.0.2.tgz",
@@ -14882,13 +14815,6 @@
       "version": "1.0.0",
       "resolved": "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz",
       "integrity": "sha1-3zrhmayt+31ECqrgsp4icrJOxhk="
-    },
-    "delegate": {
-      "version": "3.2.0",
-      "resolved": "https://registry.npmjs.org/delegate/-/delegate-3.2.0.tgz",
-      "integrity": "sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==",
-      "dev": true,
-      "optional": true
     },
     "delegates": {
       "version": "1.0.0",
@@ -15997,16 +15923,6 @@
           "integrity": "sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=",
           "dev": true
         }
-      }
-    },
-    "good-listener": {
-      "version": "1.2.2",
-      "resolved": "https://registry.npmjs.org/good-listener/-/good-listener-1.2.2.tgz",
-      "integrity": "sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=",
-      "dev": true,
-      "optional": true,
-      "requires": {
-        "delegate": "^3.1.2"
       }
     },
     "graceful-fs": {
@@ -19094,13 +19010,10 @@
       }
     },
     "prismjs": {
-      "version": "1.21.0",
-      "resolved": "https://registry.npmjs.org/prismjs/-/prismjs-1.21.0.tgz",
-      "integrity": "sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==",
-      "dev": true,
-      "requires": {
-        "clipboard": "^2.0.0"
-      }
+      "version": "1.27.0",
+      "resolved": "https://registry.npmjs.org/prismjs/-/prismjs-1.27.0.tgz",
+      "integrity": "sha512-t13BGPUlFDR7wRB5kQDG4jjl7XeuH6jbJGt11JHPL96qwsEHNX2+68tFXqc1/k+/jALsbSWJKUOT/hcYAZ5LkA==",
+      "dev": true
     },
     "process-nextick-args": {
       "version": "2.0.1",
@@ -19844,13 +19757,6 @@
           }
         }
       }
-    },
-    "select": {
-      "version": "1.1.2",
-      "resolved": "https://registry.npmjs.org/select/-/select-1.1.2.tgz",
-      "integrity": "sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=",
-      "dev": true,
-      "optional": true
     },
     "semver": {
       "version": "7.3.2",
@@ -21029,13 +20935,6 @@
       "version": "0.3.0",
       "resolved": "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz",
       "integrity": "sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q="
-    },
-    "tiny-emitter": {
-      "version": "2.1.0",
-      "resolved": "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz",
-      "integrity": "sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==",
-      "dev": true,
-      "optional": true
     },
     "tmp": {
       "version": "0.0.33",
